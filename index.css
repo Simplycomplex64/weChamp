@@ -42,8 +42,8 @@ body {
 }
 
 .input1 {
-    max-width: 400px;
-    width: 80%;
+    max-width: 700px;
+    width: 100%;
     height: 100px;
     margin-bottom: 20px;
     background-color: rgb(90, 92, 93);
@@ -129,7 +129,6 @@ button:hover {
     background: linear-gradient(black, lightblue);
     border: 2px solid black;
     width: 100%;
-    max-width: 700px;
     max-height: 300px;
     border-radius: 5px;
     color: antiquewhite;
@@ -169,6 +168,26 @@ li {
     font-weight: bold;
     float: right;
     color: rgb(62, 43, 27);
+}
+
+.span3 img{
+    width: 30px;
+    float: left;
+    transition: 0.3s ease-in-out;
+}
+
+.span3 img:hover{
+    width: 30px;
+    float: left;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.theLabel{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -223,7 +242,6 @@ li {
     .input1 {
         max-width: 400px;
         width: 80%;
-        max-width: 500px;
         height: 50px;
         margin-bottom: 20px;
         background-color: rgb(90, 92, 93);
@@ -241,7 +259,7 @@ li {
         background: linear-gradient(black, lightblue);
         border: 2px solid black;
         width: 100%;
-        max-width: 350px;
+        max-width: 550px;
         max-height: 300px;
         border-radius: 5px;
         color: antiquewhite;
